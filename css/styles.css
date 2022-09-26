@@ -135,6 +135,7 @@ padding: 0;
 }
 .list-item-link {
     text-decoration: none;
+    color: var(--main-title-cl);
     display: block;
     align-items: center;
     
@@ -142,6 +143,7 @@ padding: 0;
 
 .list-item-link-p {
     text-decoration: none;
+    color: var(--main-title-cl);
     display: block;
     align-items: center;
     list-style-type: none;
@@ -149,6 +151,7 @@ padding: 0;
 
 .list-item-link-s {
     text-decoration: none;
+    color: var(--main-title-cl);
     display: block;
     align-items: center;
 }
