@@ -456,10 +456,6 @@ padding: 0;
     border: 1px solid var(--span-bg-cl);
 }
 
-.clients-icon:hover,
-.clients-icon:focus {
-    color: var(--span-bg-cl);
-}
 
 
 /* footer*/
