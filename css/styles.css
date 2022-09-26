@@ -439,8 +439,13 @@ padding: 0;
 }
     
 .clients-icon {
-    display: flex;
     fill: currentColor;
+    display: flex;
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    width: 106px;
+    height: 60px;
 }
     
 .clients-link {
@@ -452,13 +457,16 @@ padding: 0;
     border-radius: 4px;
     width: 170px;
     height: 92px;
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
     
 .clients-link:hover,
 .clients-link:focus {
-    border: 1px solid var(--span-bg-cl);
+    color: var(--span-bg-cl);
+    border-color: var(--span-bg-cl);
 }
-
 
 
 /* footer*/
